@@ -5,6 +5,7 @@ CHOICES=(
 	"LazyDocker    TUI for Docker"
 	"Neovim        Text editor that runs in the terminal"
 	"Zellij        Adds panes, tabs, and sessions to the terminal"
+	"Firefox-dev   Developer edition of Firefox"
 	"<< Back       "
 )
 
@@ -20,6 +21,7 @@ else
 	"omakub") INSTALLER_FILE="$OMAKUB_PATH/bin/omakub-sub/migrate.sh" ;;
 	"localsend") INSTALLER_FILE="$OMAKUB_PATH/install/desktop/app-localsend.sh" ;;
 	"ollama") INSTALLER_FILE="$OMAKUB_PATH/install/terminal/optional/app-ollama.sh" ;;
+	"firefox-dev") INSTALLER_FILE="$OMAKUB_PATH/install/desktop/app-firefox-dev.sh" ;;
 	*) INSTALLER_FILE="$OMAKUB_PATH/install/terminal/app-$INSTALLER.sh" ;;
 	esac
 
