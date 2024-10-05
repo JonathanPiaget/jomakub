@@ -1,10 +1,11 @@
 # Favorite apps for dock
 apps=(
-	"Firefox-dev.desktop"
+	"firefox_firefox.desktop"
 	"Alacritty.desktop"
 	"code.desktop"
 	"md.obsidian.Obsidian.desktop"
 	"spotify.desktop"
+	"proton-mail.desktop"
 	"Activity.desktop"
 	"Docker.desktop"
 	"org.gnome.Nautilus.desktop"
@@ -20,6 +21,7 @@ desktop_dirs=(
 	"/usr/share/applications"
 	"/usr/local/share/applications"
 	"$HOME/.local/share/applications"
+	"/var/lib/snapd/desktop/applications" 
 )
 
 # Check if a .desktop file exists for each app

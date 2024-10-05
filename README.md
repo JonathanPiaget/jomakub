@@ -5,7 +5,7 @@ Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
 ## Difference from the main repository
-- install, update and delete firefox developper edition. This application is set as the default browser.
+- firefox is the default browser
 - changed dock applications to suits my needs
 
 ## Contributing to the documentation
