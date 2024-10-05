@@ -20,6 +20,7 @@ source ~/.local/share/omakub/install.sh
 - installed other apps :
   - proton mail
   - proton vpn
+  - proton pass
 
 ## Contributing to the documentation
 

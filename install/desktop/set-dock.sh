@@ -6,6 +6,7 @@ apps=(
 	"md.obsidian.Obsidian.desktop"
 	"spotify.desktop"
 	"proton-mail.desktop"
+	"proton-pass.desktop"
 	"Activity.desktop"
 	"Docker.desktop"
 	"org.gnome.Nautilus.desktop"
