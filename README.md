@@ -17,10 +17,14 @@ source ~/.local/share/omakub/install.sh
 ## Difference from the main repository
 - firefox is the default browser
 - changed dock applications to suits my needs
-- installed other apps :
+- installed other desktop apps :
   - proton mail
   - proton vpn
   - proton pass
+- installed other terminal apps :
+  - starship
+- changed configuration :
+  - the gnome compose key is set to right control, to avoid disabling caps lock key
 
 ## Contributing to the documentation
 
