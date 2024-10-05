@@ -4,9 +4,21 @@ Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern 
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
+## How to install
+Run those commands
+```bash
+sudo apt-get update
+sudo apt-get install -y git
+rm -rf ~/.local/share/omakub
+git clone https://github.com/JonathanPiaget/jomakub.git ~/.local/share/omakub >/dev/null
+source ~/.local/share/omakub/install.sh
+```
+
 ## Difference from the main repository
 - firefox is the default browser
 - changed dock applications to suits my needs
+- installed other apps :
+  - proton mail
 
 ## Contributing to the documentation
 
