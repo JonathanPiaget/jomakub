@@ -19,6 +19,7 @@ source ~/.local/share/omakub/install.sh
 - changed dock applications to suits my needs
 - installed other apps :
   - proton mail
+  - proton vpn
 
 ## Contributing to the documentation
 
