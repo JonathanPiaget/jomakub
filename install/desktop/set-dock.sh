@@ -7,6 +7,7 @@ apps=(
 	"spotify.desktop"
 	"proton-mail.desktop"
 	"proton-pass.desktop"
+	"com.actualbudget.actual.desktop"
 	"Activity.desktop"
 	"Docker.desktop"
 	"org.gnome.Nautilus.desktop"
@@ -22,7 +23,8 @@ desktop_dirs=(
 	"/usr/share/applications"
 	"/usr/local/share/applications"
 	"$HOME/.local/share/applications"
-	"/var/lib/snapd/desktop/applications" 
+	"/var/lib/snapd/desktop/applications"
+	"$HOME/.local/share/flatpak/exports/share/applications"
 )
 
 # Check if a .desktop file exists for each app
